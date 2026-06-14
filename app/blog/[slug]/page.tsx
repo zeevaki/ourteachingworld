@@ -99,16 +99,13 @@ export default async function BlogPostPage({
 
         {/* Header */}
         <div className="mb-8">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="text-5xl">{post.emoji}</span>
-            <div>
-              <span
-                className="text-xs font-bold px-3 py-1 rounded-full text-white"
-                style={{ backgroundColor: color }}
-              >
-                {label}
-              </span>
-            </div>
+          <div className="mb-4">
+            <span
+              className="text-xs font-bold px-3 py-1 rounded-full text-white"
+              style={{ backgroundColor: color }}
+            >
+              {label}
+            </span>
           </div>
           <h1 className="text-3xl font-black text-gray-800 mb-3 leading-tight">{post.title}</h1>
           <p className="text-gray-500 font-semibold text-lg mb-3 leading-relaxed">{post.subtitle}</p>

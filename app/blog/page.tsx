@@ -23,7 +23,6 @@ export default function BlogPage() {
 
       {/* Hero */}
       <section className="bg-primary py-16 px-6 text-center text-white">
-        <div className="text-5xl mb-3">✍️</div>
         <h1 className="text-4xl font-black mb-3">OurTeachingWorld Blog</h1>
         <p className="text-white/85 font-semibold text-lg max-w-xl mx-auto">
           Short, research-backed reads for teachers who want to get better every week.
@@ -43,7 +42,6 @@ export default function BlogPage() {
                 className="bg-white rounded-3xl shadow border border-gray-100 p-7 hover:shadow-md transition-shadow group"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-4xl">{post.emoji}</span>
                   <span
                     className="text-xs font-bold px-3 py-1 rounded-full text-white"
                     style={{ backgroundColor: color }}
