@@ -6,12 +6,14 @@ const categoryColors: Record<string, string> = {
   "dual-language": "#059669",
   "science-of-reading": "#0EA5E9",
   both: "#8B5CF6",
+  education: "#F59E0B",
 };
 
 const categoryLabels: Record<string, string> = {
   "dual-language": "Dual Language",
   "science-of-reading": "Science of Reading",
   both: "Both Programs",
+  education: "Education",
 };
 
 export default function BlogPage() {
