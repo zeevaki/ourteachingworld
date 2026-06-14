@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 const links = [
   { href: "/dual-language", label: "Dual Language" },
   { href: "/science-of-reading", label: "Science of Reading" },
+  { href: "/sufiaana-jihad", label: "Sufiaana Jihad" },
   { href: "/blog", label: "Blog" },
 ];
 
