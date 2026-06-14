@@ -208,8 +208,6 @@ If you are a school leader: the question is not whether to do dual language *or*
 The two most powerful research-backed programs in education are not competing for space in your school. They are waiting to be combined.
     `.trim(),
   },
-];
-
   {
     slug: "freedom-of-expression-in-education",
     title: "Let Them Speak, Dress, Create, and Disagree — Why Freedom of Expression Is the Foundation of Learning",
