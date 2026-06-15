@@ -25,7 +25,7 @@ export default function HomePage() {
             className="text-5xl md:text-6xl font-black text-white mb-4 leading-tight"
             style={{ textShadow: "0 2px 20px rgba(0,0,0,0.4)" }}
           >
-            Teaching That Changes Lives
+            Teaching That Matters!
           </h1>
           <p className="text-white/90 text-lg font-semibold mb-8 max-w-xl mx-auto">
             Explore the world&apos;s most powerful, research-backed programs — Dual Language Education and the Science of Reading. Built for teachers who believe every child deserves the best.
