@@ -84,11 +84,11 @@ export default function ScienceOfReadingPage() {
 
       {/* Hero */}
       <section
-        className="relative px-6 py-24 text-center"
+        className="relative px-6 py-28 text-center"
         style={{
           backgroundImage: "url('/kashmir.jpg')",
           backgroundSize: "cover",
-          backgroundPosition: "center bottom",
+          backgroundPosition: "center",
         }}
       >
         <div className="absolute inset-0" style={{ backgroundColor: "rgba(6,95,70,0.62)" }} />

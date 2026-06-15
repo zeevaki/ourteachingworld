@@ -4,10 +4,10 @@ import Link from "next/link";
 import { blogPosts, getPostBySlug } from "@/data/blog-posts";
 
 const categoryColors: Record<string, string> = {
-  "dual-language": "#059669",
-  "science-of-reading": "#0EA5E9",
-  both: "#8B5CF6",
-  education: "#F59E0B",
+  "dual-language": "#065F46",
+  "science-of-reading": "#0D9488",
+  both: "#D97706",
+  education: "#B45309",
 };
 
 const categoryLabels: Record<string, string> = {
@@ -91,30 +91,39 @@ export default async function BlogPostPage({
     <div className="min-h-screen flex flex-col bg-background">
       <NavBar />
 
+      {/* Hero */}
+      <section
+        className="relative px-6 py-28 text-center"
+        style={{
+          backgroundImage: "url('/kashmir.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0" style={{ backgroundColor: "rgba(6,95,70,0.62)" }} />
+        <div className="relative z-10 max-w-3xl mx-auto">
+          <span
+            className="inline-block text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full mb-4 text-white"
+            style={{ backgroundColor: color }}
+          >
+            {label}
+          </span>
+          <h1
+            className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight"
+            style={{ textShadow: "0 2px 20px rgba(0,0,0,0.5)" }}
+          >
+            {post.title}
+          </h1>
+          <p className="text-white/85 font-semibold text-lg max-w-xl mx-auto">{post.subtitle}</p>
+          <p className="text-white/60 text-sm font-semibold mt-4">{post.date} · {post.readTime}</p>
+        </div>
+      </section>
+
       <main className="flex-1 py-12 px-6 max-w-2xl mx-auto w-full">
         {/* Back */}
         <Link href="/blog" className="text-primary font-bold text-sm hover:underline mb-6 block">
           ← Back to Blog
         </Link>
-
-        {/* Header */}
-        <div className="mb-8">
-          <div className="mb-4">
-            <span
-              className="text-xs font-bold px-3 py-1 rounded-full text-white"
-              style={{ backgroundColor: color }}
-            >
-              {label}
-            </span>
-          </div>
-          <h1 className="text-3xl font-black text-gray-800 mb-3 leading-tight">{post.title}</h1>
-          <p className="text-gray-500 font-semibold text-lg mb-3 leading-relaxed">{post.subtitle}</p>
-          <div className="flex items-center gap-4 text-xs text-gray-400 font-semibold">
-            <span>{post.date}</span>
-            <span>·</span>
-            <span>{post.readTime}</span>
-          </div>
-        </div>
 
         <hr className="border-gray-100 mb-8" />
 
