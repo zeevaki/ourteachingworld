@@ -98,7 +98,6 @@ export default function DualLanguagePage() {
       >
         <div className="absolute inset-0" style={{ backgroundColor: "rgba(6,95,70,0.62)" }} />
         <div className="relative z-10 max-w-3xl mx-auto">
-          <div className="text-6xl mb-4">🌐</div>
           <h1 className="text-5xl font-black text-white mb-4" style={{ textShadow: "0 2px 16px rgba(0,0,0,0.4)" }}>
             Dual Language Education
           </h1>

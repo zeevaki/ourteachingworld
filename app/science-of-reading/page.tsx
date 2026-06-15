@@ -93,12 +93,11 @@ export default function ScienceOfReadingPage() {
       >
         <div className="absolute inset-0" style={{ backgroundColor: "rgba(6,95,70,0.62)" }} />
         <div className="relative z-10 max-w-3xl mx-auto">
-          <div className="text-6xl mb-4">📖</div>
           <h1 className="text-5xl font-black text-white mb-4" style={{ textShadow: "0 2px 16px rgba(0,0,0,0.4)" }}>
             Science of Reading
           </h1>
           <p className="text-white/90 text-lg font-semibold max-w-xl mx-auto">
-            Fifty years of cognitive science, neuroscience, and linguistics have produced one clear answer about how children learn to read. Here it is.
+            Presenting fifty years of cognitive science, neuroscience, and linguistics — one clear answer about how every child learns to read.
           </p>
         </div>
       </section>
