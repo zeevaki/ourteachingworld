@@ -16,7 +16,7 @@ export default function HomePage() {
           minHeight: "480px",
         }}
       >
-        <div className="absolute inset-0" style={{ backgroundColor: "rgba(4,120,87,0.55)" }} />
+        <div className="absolute inset-0" style={{ backgroundColor: "rgba(6,95,70,0.62)" }} />
         <div className="relative z-10 max-w-3xl mx-auto">
           <p className="text-white/80 font-bold text-sm uppercase tracking-widest mb-3">
             For Teachers Everywhere

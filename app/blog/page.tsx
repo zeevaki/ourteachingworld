@@ -3,10 +3,10 @@ import Link from "next/link";
 import { blogPosts } from "@/data/blog-posts";
 
 const categoryColors: Record<string, string> = {
-  "dual-language": "#059669",
-  "science-of-reading": "#0EA5E9",
-  both: "#8B5CF6",
-  education: "#F59E0B",
+  "dual-language": "#065F46",
+  "science-of-reading": "#0D9488",
+  both: "#D97706",
+  education: "#B45309",
 };
 
 const categoryLabels: Record<string, string> = {

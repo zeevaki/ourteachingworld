@@ -5,7 +5,7 @@ const pillars = [
   {
     emoji: "👂",
     title: "Phonemic Awareness",
-    color: "#8B5CF6",
+    color: "#065F46",
     teks: "The ability to hear and manipulate individual sounds (phonemes) in spoken words.",
     description:
       "Before children can read, they must understand that spoken words are made of individual sounds. Phonemic awareness is purely oral — it has nothing to do with letters. It includes skills like blending sounds (c-a-t = cat), segmenting (cat = c-a-t), and substituting sounds (change /c/ in cat to /b/ → bat). Research shows it is the single strongest predictor of early reading success.",
@@ -13,7 +13,7 @@ const pillars = [
   {
     emoji: "🔤",
     title: "Phonics",
-    color: "#F59E0B",
+    color: "#0D9488",
     teks: "The relationship between letters (graphemes) and sounds (phonemes).",
     description:
       "Phonics instruction teaches students the alphabetic code — which letters represent which sounds, and how to decode written words. Systematic, explicit phonics (teaching letter-sound relationships in a deliberate sequence) is dramatically more effective than incidental or embedded phonics. The National Reading Panel confirmed this in 2000; brain imaging research has confirmed it since.",
@@ -21,7 +21,7 @@ const pillars = [
   {
     emoji: "📖",
     title: "Fluency",
-    color: "#0EA5E9",
+    color: "#059669",
     teks: "Reading with accuracy, appropriate rate, and expression.",
     description:
       "Fluency is the bridge between word recognition and comprehension. When students read fluently, decoding becomes automatic — freeing cognitive resources for understanding meaning. Fluency develops through repeated reading, modeling by teachers, and oral reading practice. Struggling readers who are not fluent spend so much mental energy decoding that they cannot comprehend what they read.",
@@ -29,7 +29,7 @@ const pillars = [
   {
     emoji: "🗝️",
     title: "Vocabulary",
-    color: "#22C55E",
+    color: "#D97706",
     teks: "Knowledge of words — their meanings, relationships, and usage.",
     description:
       "Vocabulary knowledge is one of the strongest predictors of reading comprehension. Students who encounter a word they cannot understand cannot comprehend the sentence it appears in — no matter how well they can decode. Vocabulary is best taught through direct instruction of high-value words, wide reading, and deliberate word study including roots, prefixes, and suffixes.",
@@ -37,7 +37,7 @@ const pillars = [
   {
     emoji: "💡",
     title: "Comprehension",
-    color: "#EF4444",
+    color: "#B45309",
     teks: "The ability to construct meaning from text.",
     description:
       "Comprehension is the ultimate goal of reading. It requires both strong word recognition (decoding) and strong language comprehension (background knowledge, vocabulary, reasoning). The Simple View of Reading, proposed by Gough & Tunmer in 1986, captures this in one formula: Reading = Decoding × Language Comprehension. If either component is zero, reading comprehension is zero.",
@@ -91,7 +91,7 @@ export default function ScienceOfReadingPage() {
           backgroundPosition: "center bottom",
         }}
       >
-        <div className="absolute inset-0" style={{ backgroundColor: "rgba(14,165,233,0.65)" }} />
+        <div className="absolute inset-0" style={{ backgroundColor: "rgba(6,95,70,0.62)" }} />
         <div className="relative z-10 max-w-3xl mx-auto">
           <div className="text-6xl mb-4">📖</div>
           <h1 className="text-5xl font-black text-white mb-4" style={{ textShadow: "0 2px 16px rgba(0,0,0,0.4)" }}>

@@ -5,35 +5,35 @@ const pillars = [
   {
     emoji: "📚",
     title: "Biliteracy",
-    color: "#059669",
+    color: "#065F46",
     description:
       "Students develop full literacy in both languages — reading, writing, speaking, and listening. They are not learning half of each language; they are becoming fully literate in two. This is the most powerful academic gift a school can give.",
   },
   {
     emoji: "🏆",
     title: "Academic Achievement",
-    color: "#0EA5E9",
+    color: "#0D9488",
     description:
       "Content — math, science, social studies — is taught in both languages. Students build deep conceptual knowledge that transfers across languages. By 5th grade, dual language students consistently score 15–20 percentile points higher than peers in monolingual programs.",
   },
   {
     emoji: "🌍",
     title: "Sociocultural Competence",
-    color: "#8B5CF6",
+    color: "#059669",
     description:
       "Students learn to navigate and appreciate multiple cultures. They develop empathy, global awareness, and the ability to build bridges across communities. In a diverse world, this is not a bonus — it is a survival skill.",
   },
   {
     emoji: "🧠",
     title: "Metalinguistic Awareness",
-    color: "#F59E0B",
+    color: "#D97706",
     description:
       "Knowing two languages gives students a unique window into how language itself works. They understand grammar, sentence structure, and word patterns more deeply than monolingual peers — a skill that boosts reading comprehension in both languages.",
   },
   {
     emoji: "➕",
     title: "Additive Bilingualism",
-    color: "#EF4444",
+    color: "#B45309",
     description:
       "Dual language adds a new language without subtracting the home language. This stands in direct contrast to subtractive models where students lose their heritage language while learning English. Preserving the home language preserves identity, family connection, and community.",
   },
@@ -96,7 +96,7 @@ export default function DualLanguagePage() {
           backgroundPosition: "center top",
         }}
       >
-        <div className="absolute inset-0" style={{ backgroundColor: "rgba(5,150,105,0.65)" }} />
+        <div className="absolute inset-0" style={{ backgroundColor: "rgba(6,95,70,0.62)" }} />
         <div className="relative z-10 max-w-3xl mx-auto">
           <div className="text-6xl mb-4">🌐</div>
           <h1 className="text-5xl font-black text-white mb-4" style={{ textShadow: "0 2px 16px rgba(0,0,0,0.4)" }}>
