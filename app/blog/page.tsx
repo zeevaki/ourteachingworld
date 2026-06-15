@@ -42,7 +42,7 @@ export default function BlogPage() {
             OurTeachingWorld Blog
           </h1>
           <p className="text-white/90 text-lg font-semibold max-w-xl mx-auto">
-            Short, research-backed reads for teachers who want to make a difference.
+            Research-backed reads for teachers who want to make a difference.
           </p>
         </div>
       </section>
