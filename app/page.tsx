@@ -50,7 +50,7 @@ export default function HomePage() {
       {/* Mission strip */}
       <section className="bg-primary text-white py-6 px-6 text-center">
         <p className="font-bold text-base max-w-2xl mx-auto">
-          🌍 OurTeachingWorld brings together the best evidence-based research so every teacher — regardless of school or country — can give every student a fair chance.
+          OurTeachingWorld brings together the best evidence-based research so every teacher — regardless of school or country — can give every student a fair chance.
         </p>
       </section>
 
@@ -63,7 +63,6 @@ export default function HomePage() {
 
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-white rounded-3xl shadow-md border border-gray-100 p-8 flex flex-col">
-            <div className="text-5xl mb-4">🌐</div>
             <h3 className="text-2xl font-black text-primary mb-2">Dual Language Education</h3>
             <p className="text-gray-600 font-semibold mb-4 flex-1">
               Students learn academic content in two languages simultaneously — developing full biliteracy, stronger cognitive skills, and a deep appreciation for multiple cultures. Research consistently shows dual language students outperform their monolingual peers by 3rd grade.
@@ -83,7 +82,6 @@ export default function HomePage() {
           </div>
 
           <div className="bg-white rounded-3xl shadow-md border border-gray-100 p-8 flex flex-col">
-            <div className="text-5xl mb-4">📖</div>
             <h3 className="text-2xl font-black text-accent mb-2">Science of Reading</h3>
             <p className="text-gray-600 font-semibold mb-4 flex-1">
               Decades of cognitive science, linguistics, and neuroscience converge on one clear finding: children learn to read best through explicit, systematic instruction in phonemic awareness, phonics, fluency, vocabulary, and comprehension.
@@ -133,34 +131,6 @@ export default function HomePage() {
         >
           Visit the Blog →
         </Link>
-      </section>
-
-      {/* Programs in action */}
-      <section className="bg-primary-light py-16 px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-black text-gray-800 mb-3">See These Programs in Action</h2>
-          <p className="text-gray-600 font-semibold mb-8">
-            OurTeachingWorld is the research home. Visit our student-facing tools to see Dual Language and Science of Reading working together in real classrooms.
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <a
-              href="https://ourreadingworld.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-primary font-black px-6 py-3 rounded-2xl hover:shadow-md transition-shadow border border-primary/20"
-            >
-              📖 OurReadingWorld.com
-            </a>
-            <a
-              href="https://ourmathworld.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white text-accent font-black px-6 py-3 rounded-2xl hover:shadow-md transition-shadow border border-accent/20"
-            >
-              🔢 OurMathWorld.com
-            </a>
-          </div>
-        </div>
       </section>
 
       {/* Footer */}

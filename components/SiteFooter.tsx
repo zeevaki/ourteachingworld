@@ -1,8 +1,8 @@
 const sites = [
-  { name: "OurReadingWorld", url: "https://ourreadingworld.com", emoji: "📖" },
-  { name: "OurMathWorld", url: "https://ourmathworld.com", emoji: "🔢" },
-  { name: "OurTeachingWorld", url: "https://ourteachingworld.com", emoji: "🎓" },
-  { name: "OurSufiWorld", url: "https://oursufiworld.com", emoji: "🌹" },
+  { name: "OurReadingWorld", url: "https://ourreadingworld.com" },
+  { name: "OurMathWorld", url: "https://ourmathworld.com" },
+  { name: "OurTeachingWorld", url: "https://ourteachingworld.com" },
+  { name: "OurSufiWorld", url: "https://oursufiworld.com" },
 ];
 
 export default function SiteFooter() {
@@ -20,10 +20,9 @@ export default function SiteFooter() {
               href={site.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gray-800 hover:bg-gray-700 transition-colors px-4 py-2 rounded-xl font-bold text-xs flex items-center gap-2"
+              className="bg-gray-800 hover:bg-gray-700 transition-colors px-4 py-2 rounded-xl font-bold text-xs text-white"
             >
-              <span>{site.emoji}</span>
-              <span className="text-white">{site.name}</span>
+              {site.name}
             </a>
           ))}
         </div>
